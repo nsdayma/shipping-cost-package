@@ -9,7 +9,7 @@ from flask import request
 from flask import make_response
 
 # Flask app should start in global layout
-app = Flask(__name__)
+app = Flask(shipping-cost-package)
 
 
 @app.route('/webhook', methods=['POST'])
